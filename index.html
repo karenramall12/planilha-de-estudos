@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diário de Estudos</h1>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data">
+
+        <label for="notaInput">O que aprendi hoje:</label>
+        <textarea id="notaInput" placeholder="Digite aqui..."></textarea>
+
+        <button onclick="salvarNota()">Salvar</button>
+
+        <h2>Minhas Anotações</h2>
+        <ul id="listaNotas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
